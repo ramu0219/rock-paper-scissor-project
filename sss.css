@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-color: rgba(189, 151, 224, 0.625);
+}
+.container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+p {
+    color: white;
+    font-family:  'Poppins', sans-serif;;
+
+}
+button{
+    background-color: rgba(9, 9, 9, 0.288);
+    color: rgb(0, 25, 24);
+}
+.js-move{
+    height: 50px;
+    padding: 20px;
+
+}
+.js-b{
+    border: black 1px solid;
+    border-radius: 40px;
+    margin: 20px;
+}
+.js-p{
+    height: 50px;
+}
+.js-n,
+.js-auto{
+       font-size: 20px;
+       font-weight: bold;
+       cursor: pointer;
+}
